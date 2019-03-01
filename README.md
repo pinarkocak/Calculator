@@ -1,11 +1,12 @@
 # Calculator
 
-React Native ile basit bir hesap makinası uygulaması için biz bu projede https://snack.expo.io/ sitesinden yararlandık.
-Hesap makinası uygulaması geliştirilirken burada bizim için önemli olan Javascript'in hazır fonksiyonlarından eval()  fonksiyonu kullanıldı. Eval() fonksiyonu, aldığı karakter dizisi parametresini dinamik olarak JavaScript kaynak kodlarına çevirerek çalıştırılmasını sağlar. Eğer karakter dizisi bir veya daha fazla operatör içeriyorsa operatörün işlemi gerçekleştirilir. Eval() otomatik olarak değişkenin türünü algılayıp dönüştürme işlemi yapar ve matematiksel işlemi gerçekleştirir.
+For a simple calculator application with React-Native, We benefit from the site https://snack.expo.io/ in this project. When the calculator application was developed, JavaScript's eval() function, which is important to us, was used.  The eval() function allows it to be executed dynamically by converting the character array parameter it receives into JavaScript source code. If the character sequence contains one or more operators, the operator is executed. Eval() automatically detects the type of variable and performs the conversion and performs the mathematical operation. 
+
+You can see here usage of eval() function:
 
                   inputValue: eval(temp + operation + inputValue),
                   
 
-Uygulama Ekran Görüntüleri (Android ve iOS):
+ScreenShots of Application (Android and iOS):
 
 <img src="images/android.png" width="200" height="350">  <img src="images/ios.png" width="200" height="350">
